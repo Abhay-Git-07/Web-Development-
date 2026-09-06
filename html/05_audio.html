@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Audio</title>
+  </head>
+
+  <body>
+    <h1>HTML Audio</h1>
+
+    <hr />
+
+    <!-- Basic Audio Player -->
+    <audio controls>
+      <!-- MP3 Audio File -->
+      <source src="audio.wav" type="audio/mpeg" />
+
+      <!-- Fallback Text -->
+      Your browser does not support the audio element.
+    </audio>
+
+    <br /><br />
+
+    <!-- Audio with Loop -->
+    <audio controls loop>
+      <source src="audio.wav" type="audio/mpeg" />
+    </audio>
+
+    <br /><br />
+
+    <!-- Audio Starts Muted -->
+    <audio controls muted>
+      <source src="audio.wav" type="audio/mpeg" />
+    </audio>
+  </body>
+</html>
