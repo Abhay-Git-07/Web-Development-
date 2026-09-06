@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HTML Video</title>
+  </head>
+
+  <body>
+    <h1>Working with Videos</h1>
+
+    <hr />
+
+    <!-- Basic Video Player -->
+    <video controls width="500">
+      <!-- MP4 Video -->
+      <source src="video1.mp4" type="video/mp4" />
+
+      <!-- Fallback Message -->
+      Your browser does not support the video element.
+    </video>
+
+    <br /><br />
+
+    <!-- Video with Poster Image -->
+    <video controls width="500" poster="img.jpg">
+      <source src="video1.mp4" type="video/mp4" />
+    </video>
+
+    <br /><br />
+
+    <!-- Muted and Looping Video -->
+    <video controls width="500" muted loop>
+      <source src="video2.mp4" type="video/mp4" />
+    </video>
+  </body>
+</html>
